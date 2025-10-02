@@ -1,125 +1,62 @@
-# 🌍 Sahayam  
+# Welcome to BigSister! 
+## A web app to help women know more and get support with abortion. 
 
-*"सहायम" – Support in Sanskrit*  
+See the app here: https://cmdf24-client.vercel.app/
 
----
+### This is a hackthon project (cmd-f 2024).
 
-## Why Sahayam Exists  
+Bigsister main features include:
+- a live AI chatbot to ask questions, get support or select generated prompts (anonymous & no tracking for full privacy)
+- an interactive map to find nearby clinics
+- an anonymous forum to ask questions to health practitioners
 
-When we talk about healthcare, we often imagine clinics, appointments, insurance, sterile rooms. But for many women — especially **international students, migrant workers, refugees, and neurodivergent women** — healthcare is not a sterile environment. It’s a labyrinth.  
+Disclaimer: we used Cohere for the chatbot and required an API key that is not included in this repo.  If you run this project locally and want the full chat integration, you should use your own API key and add it to a .env file in the server directory. Be aware that Cohere requires extra training on sensitive data to be fully safe for this topic.
 
-It’s the silence of being far from family.  
-It’s the weight of stigma, of cultural barriers, of whispered shame.  
-It’s the confusion of medical jargon when your brain processes differently.  
-It’s the dread of overstimulating clinics and inaccessible systems.  
-It’s being **alone** when making some of the most difficult choices of your life.  
+The same goes for the Google Maps API we used for our interactive map. You should use your own API key and add it to a .env file in the frontend directory
 
-Sahayam was born from this truth. Not as a Silicon Valley pitch, but as a **lifeline**:  
-a place where information is plain, dignity is preserved, and privacy is non-negotiable.  
+# Getting Started with Create React App
 
----
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## The Mission  
+## Available Scripts
 
-Sahayam’s mission is simple, but radical:  
+In the project directory, you can run:
 
-> **To make reproductive healthcare guidance confidential, accessible, and empathetic — for women who are far from support and low on resources.**  
+### `npm start`
 
-Where other platforms demand logins, tracking, and profit, Sahayam is built around:  
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- **Anonymity**: No accounts, no data mining, no surveillance.  
-- **Accessibility**: Neurodivergent-friendly design, plain-language guidance, multiple sensory formats (text, visuals, audio).  
-- **Safety**: Quick exits, local data wipes, neutral disguises — because privacy isn’t optional, it’s survival.  
-- **Global inclusivity**: Verified NGOs and low-cost clinics, not just urban hospitals.  
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
----
+### `npm test`
 
-## What Sahayam Offers  
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### 🧭 Anonymous Guidance  
-Ask questions. Get answers in three formats:  
-- Simple bullet points (for clarity).  
-- Flowcharts (for visual thinkers).  
-- Detailed step-by-step (for those who need the full context).  
+### `npm run build`
 
-Powered by **Cohere AI**, trained to speak calmly, clearly, and with citations from **WHO, ACOG, Ipas, Planned Parenthood Global, UNFPA**.  
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
----
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### 🗺️ Clinic & NGO Finder  
-- Find trusted providers near you using **Google Maps** + curated NGO data.  
-- Filter for what matters: affordability, language support, sensory-friendly, female staff.  
-- Download offline resource packs — because connectivity is a privilege.  
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
----
+### `npm run eject`
 
-### 🌈 Emotional Support  
-- **Calm Mode:** 3D sensory scapes (Spline) or reduced-motion alternatives.  
-- **Journaling:** TinyMCE-powered, with optional auto-delete after 24h.  
-- **Comfort Messages:** Curated affirmations to remind you you’re not alone.  
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
----
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### 🔒 Safety First  
-- **Quick Exit Button:** Disguises the app instantly.  
-- **Erase All Data:** One click to wipe local history.  
-- **Neutral Branding Mode:** App looks like a generic wellness tool.  
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
----
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Impact  
+## Learn More
 
-### 💡 For Women Far From Home  
-International students, migrants, and refugees often face language barriers, cost hurdles, and lack of support networks. Sahayam gives them **agency without exposure**.  
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### 💡 For Neurodivergent Women  
-Medical spaces are often overwhelming — loud, rushed, confusing. Sahayam reframes guidance in ways that work for different processing styles, making healthcare **comprehensible and less frightening**.  
-
-### 💡 For Low-Resource Communities  
-Because Sahayam caches guides offline, women in areas with poor internet still have access to critical health knowledge.  
-
----
-
-## Why This Matters  
-
-Sahayam isn’t just a web app. It’s an act of resistance against systems that make healthcare hard to access, harder to understand, and hardest of all to do **alone**.  
-
-It says:  
-- You deserve information, even if you can’t afford it.  
-- You deserve clarity, even if you process differently.  
-- You deserve safety, even in places where your choices are restricted.  
-- You deserve dignity, always.  
-
----
-
-## The Tech That Serves the Mission  
-
-- **Frontend:** React · TypeScript · ChakraUI · TinyMCE · Spline  
-- **Backend:** Node.js · Express.js  
-- **AI Guidance:** Cohere API  
-- **Maps:** Google Maps API + NGO dataset  
-- **Design:** Figma, with accessibility-first prototyping  
-
-Technology here is not the star. It’s the **scaffolding** that allows dignity, empathy, and safety to be delivered at scale.  
-
----
-
-## Roadmap  
-
-- 🌐 Expand to 30+ languages via community translations.  
-- 📱 SMS + offline-first support for women without smartphones.  
-- 🤝 Partnerships with WHO, UNFPA, Planned Parenthood Global, and refugee NGOs.  
-- 🧑‍⚕️ Telehealth integrations (where legal) for direct consults.  
-- 💬 Expanded healthcare modules: contraception, maternal care, postpartum.  
-
----
-
-## Disclaimer  
-
-Sahayam provides **informational guidance only**.  
-It is **not medical or legal advice**. Always consult licensed professionals in your region.  
-
----
-
-✍️ *Created with empathy, privacy, and accessibility at its core.*  
-Because healthcare is not just about medicine. It’s about dignity.  
+To learn React, check out the [React documentation](https://reactjs.org/).
