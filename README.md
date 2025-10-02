@@ -1,18 +1,20 @@
-# Welcome to BigSister! 
-## A web app to help women know more and get support with abortion. 
+# Welcome to Sahayam!  
+## A web app to provide anonymous, accessible healthcare guidance for international & neurodivergent women.  
 
-See the app here: https://cmdf24-client.vercel.app/
+See the app here: *(deployment link coming soon)*  
 
-### This is a hackthon project (cmd-f 2024).
+### This is a hackathon project (2025).  
 
-Bigsister main features include:
-- a live AI chatbot to ask questions, get support or select generated prompts (anonymous & no tracking for full privacy)
-- an interactive map to find nearby clinics
-- an anonymous forum to ask questions to health practitioners
+Sahayam’s main features include:  
+- a live AI chatbot to ask questions and receive plain-language guidance in different formats (simple steps, detailed explanations, or visual flowcharts) — fully anonymous with no tracking for privacy  
+- an interactive map to find nearby clinics and NGOs with filters for affordability, accessibility, and language support  
+- an anonymous journaling and mood-tracking tool, with optional auto-delete for safety and privacy  
 
-Disclaimer: we used Cohere for the chatbot and required an API key that is not included in this repo.  If you run this project locally and want the full chat integration, you should use your own API key and add it to a .env file in the server directory. Be aware that Cohere requires extra training on sensitive data to be fully safe for this topic.
+Disclaimer: we used Cohere for the chatbot and required an API key that is not included in this repo.  
+If you run this project locally and want the full chat integration, you should use your own API key and add it to a `.env` file in the server directory.  
 
-The same goes for the Google Maps API we used for our interactive map. You should use your own API key and add it to a .env file in the frontend directory
+The same goes for the Google Maps API used for the clinic finder. You should use your own API key and add it to a `.env` file in the frontend directory.  
+
 
 # Getting Started with Create React App
 
